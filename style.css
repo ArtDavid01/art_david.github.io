@@ -1,0 +1,208 @@
+nav { 
+  text-align: center;
+  margin: 0 auto;
+  color: whitesmoke;
+  background-color: #0C3E4C;
+  width: 100%;
+  height: 50px;
+  padding-top: 22px;
+  top : 0%;
+  position: fixed
+  
+
+}
+nav span{
+  display: block;
+  font-size: medium;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline;
+  margin: 20px;
+}
+nav span a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.front_img{
+
+  background-image: url('../images/Engaño\ Mortal.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  cover;
+  width: 100%;
+  
+}
+
+.front_img p {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  padding: 20px 30px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 10px;
+  background-size:  cover;
+  
+
+}
+
+/* hover anim*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+.snip1231 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1231 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1231 span {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1em;
+  padding: 0;
+}
+.snip1231 a {
+  padding: 0.8em 17px;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.snip1231 a:before,
+.snip1231 a:after {
+  left: 0%;
+  right: 0%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) rotate(0deg);
+  transform: translateY(-50%) rotate(0deg);
+  content: '';
+  border-left: 12px solid #46627f;
+  border-right: 12px solid #46627f;
+  height: 3px;
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1231 a:hover,
+.snip1231 .current a {
+  color: #ffffff;
+}
+.snip1231 a:hover:before,
+.snip1231 .current a:before {
+  -webkit-transform: translateY(-50%) rotate(12deg);
+  transform: translateY(-50%) rotate(12deg);
+}
+.snip1231 a:hover:after,
+.snip1231 .current a:after {
+  -webkit-transform: translateY(-50%) rotate(-12deg);
+  transform: translateY(-50%) rotate(-12deg);
+}
+/* Art David front page */ 
+
+h1 {
+    color:#555555;
+    font-family: Optima, sans-serif;
+    font-size: 200%;
+    font-weight: lighter;
+    text-align: center;  
+    margin-top: 150px;
+    margin-bottom: 75px;
+    
+  }
+   
+
+.information {
+    text-align: center;
+    text-size-adjust: cover;
+    font-size: 1.5rem;
+    width: 70%;
+    height: 100%;
+    padding: 20px 40px;
+    margin: 30px auto;
+  }
+
+  h6{
+    text-align: right;
+    padding: 20px 20px;
+  }
+
+
+  <!-- Galeria CSS-->
+  .images {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+/* Resize images */
+
+  .pencil_draw img {
+    margin: 10px 10px;
+    width: 300px;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .pencil_draw,
+  .pencil_draw_large{
+   
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
+  .pencil_draw_large img {
+    
+    margin: 10px 10px;
+    width: 500px;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer{
+    text-align: center;
+    margin: 0 auto;
+    color: whitesmoke;
+    background-color: #0C3E4C;
+    width: 100%;
+    height: 50px;
+    padding-top: 22px;
+    top : 0%;
+  }
+
+  
+
+  .contact_info a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  .contact_info span{
+    text-decoration: none;
+    margin: 10px 10px;
+  }
+
+  a:hover {
+    color: #d6d6d6;
+  }
+  
+  
+
